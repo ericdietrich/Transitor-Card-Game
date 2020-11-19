@@ -1,0 +1,60 @@
+.main-panel {
+    background: url('../img/Imagem 2.png') no-repeat padding-box;
+    width: 100vw;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-panel .main-card-container {
+    background: url('../img/Imagem card.svg') no-repeat;
+    height: 1080px;
+    position: relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-panel .main-card-container h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.main-panel .main-card-container .main-card .card{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main-panel .main-card-container .feather {
+    position: absolute;
+}
+
+.main-panel .main-card-container .feather:nth-last-of-type(1){
+    top: 430px;
+    right: -100px;
+    
+}
+.main-panel .main-card-container .feather:nth-last-of-type(2){
+    top: 480px;
+    left: -30px;
+    
+}
+.main-panel .main-card-container .feather:nth-last-of-type(3){
+    top: 280px;
+    right: -60px;
+    
+}
+.main-panel .main-card-container .feather:nth-last-of-type(4){
+    top: 300px;
+    left: -60px;
+}
+
+.main-panel .main-card-container .description {
+    color: #F0F0F2;
+    text-align: center;
+    font-size: 20px;
+}
