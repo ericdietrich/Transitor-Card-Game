@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.css"
+        integrity="sha512-rEnjEH5u8xKS8NLcXC4nuZwT89x+tMB19ddbolNGE7DTl6o3JEo11kHAwryLlALFnxdONjO4xVpjunLWdiZR1A=="
+        crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -19,23 +22,109 @@
 
     <section class="main-panel">
         <div class="main-card-container">
-            <h2>TRANSITOR - RED THE SINGER</h2>
             <div class="main-card">
+                <h2>TRANSITOR - RED THE SINGER</h2>
                 <img class="card" src="./src/img/Imagem card-1.png"
                     alt="card da personagem transistor - red the singer">
                 <img class="feather" src="./src/img/Sem Título-3.png" alt="pena">
                 <img class="feather" src="./src/img/Sem Título-3-3.png" alt="pena">
                 <img class="feather" src="./src/img/Sem Título-3-1.png" alt="pena">
                 <img class="feather" src="./src/img/Sem Título-3-2.png" alt="pena">
+                <p class="description">"Olha, o que quer que você esteja pensando, me faça um favor, não solte."</p>
             </div>
-            <p class="description">"Olha, o que quer que você esteja pensando, me faça um favor, não solte."</p>
         </div>
     </section>
-    <section class="slide"></section>
-    <section class="form"></section>
+
+    <section class="slide">
+
+        <button class='prev'>&lt</button>
+        <ul class="carousel">
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Grant.png" alt="personagem Grant">
+                    </div>
+                    <p>A Camerata foi apenas os dois no início, e suas fileiras nunca foram destinadas a exceder um
+                        número a ser contado em uma mão.</p>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Red.png" alt="personagem Red">
+                    </div>
+                    <p>Red, uma jovem cantora, entrou em posse do Transistor. Sendo a poderosa espada falante. O grupo
+                        Possessores quer tanto ela quanto o Transistor e está perseguindo implacavelmente a sua procura.
+                    </p>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Sybil_2.png" alt="personagem Sybil">
+                    </div>
+                    <p>Sybil é descrita pelo Transistor como sendo os "olhos e ouvidos" da Camerata.</p>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Grant.png" alt="personagem Grant">
+                    </div>
+                    <p>A Camerata foi apenas os dois no início, e suas fileiras nunca foram destinadas a exceder um
+                        número a ser contado em uma mão.</p>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Red.png" alt="personagem Red">
+                    </div>
+                    <p>Red, uma jovem cantora, entrou em posse do Transistor. Sendo a poderosa espada falante. O grupo
+                        Possessores quer tanto ela quanto o Transistor e está perseguindo implacavelmente a sua procura.
+                    </p>
+                </div>
+            </li>
+
+            <li class="carousel-item">
+                <div>
+                    <div class="img-container">
+                        <img src="./src/img/Sybil_2.png" alt="personagem Sybil">
+                    </div>
+                    <p>Sybil é descrita pelo Transistor como sendo os "olhos e ouvidos" da Camerata.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class='next'>&gt</button>
+
+
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <h2>FORMULÁRIO</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            <form action="post">
+                <input type="text" name="name" id="name" placeholder="Nome">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <textarea name="mensage" id="mensage" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+    </section>
 
 
     <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.js"
+        integrity="sha512-NI5tuaiyhrV4EkyHBGHJj9uaL6uu7fz/WCoMnEwvHi8WXTKZ9f8P1v517sdTGVpT31/UEHRdLMuNdPon9F3HUg=="
+        crossorigin="anonymous"></script>
     <script type="module" src="./scripts.js"></script>
 </body>
 

@@ -1,0 +1,45 @@
+.form {
+    background: transparent linear-gradient(143deg, #7DEDE2 0%, #58B790 100%) 0% 0% no-repeat padding-box;
+    height: 700px;
+    position: relative;
+}
+
+.form .container {
+    background: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.form .container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #63C7A9;
+}
+
+.form .container p {
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+    text-align: left;
+    max-width: 750px;
+    margin: 40px auto 40px;
+}
+
+.form .container form input, .form .container form textarea{
+    border: 1px solid #363636;
+    color: #363636;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.form .container form input::placeholder, .form .container form textarea::placeholder {
+    
+    font-family: 'Open Sans', serif;
+    color: #363636;
+    font-size: 18px;
+    padding: 10px 20px;
+    opacity: 1;
+}

@@ -8,10 +8,13 @@
 }
 
 .main-panel .main-card-container {
-    background: url('../img/Imagem card.svg') no-repeat;
+    background-image: url('../img/Imagem card.svg');
+    height: 1092px;
+}
+
+.main-panel .main-card-container .main-card {
     height: 1080px;
     position: relative;
-    width: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,11 +25,12 @@
     font-size: 15px;
     font-weight: bold;
     color: #FFFFFF;
+    padding: 20px 0 0 20px;
+    align-self: flex-start;
 }
-
 .main-panel .main-card-container .main-card .card{
-    width: 95%;
     margin: 0 auto;
+    padding: 20px 16px 20px 26px;
 }
 
 .main-panel .main-card-container .feather {
@@ -34,27 +38,29 @@
 }
 
 .main-panel .main-card-container .feather:nth-last-of-type(1){
-    top: 430px;
-    right: -100px;
-    
-}
-.main-panel .main-card-container .feather:nth-last-of-type(2){
     top: 480px;
-    left: -30px;
-    
+    right: -100px;
+}
+
+.main-panel .main-card-container .feather:nth-last-of-type(2){
+    top: 525px;
+    left: -5px;
 }
 .main-panel .main-card-container .feather:nth-last-of-type(3){
-    top: 280px;
-    right: -60px;
-    
+    top: 300px;
+    right: -30px;
 }
 .main-panel .main-card-container .feather:nth-last-of-type(4){
-    top: 300px;
-    left: -60px;
+    top: 380px;
+    left: -40px;
 }
 
 .main-panel .main-card-container .description {
+    font-family: 'Open Sans', serif;
     color: #F0F0F2;
     text-align: center;
     font-size: 20px;
+    width: 270px;
+    margin: 0 auto;
+
 }
