@@ -1,5 +1,6 @@
 .form {
     background: transparent linear-gradient(143deg, #7DEDE2 0%, #58B790 100%) 0% 0% no-repeat padding-box;
+    width: 100vw;
     min-height: 700px;
     position: relative;
     display: flex;

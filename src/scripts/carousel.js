@@ -16,19 +16,19 @@ export default function createCarousel() {
             {
                 breakpoint: 700,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToSroll: 1,
                 }
             },
             {
                 breakpoint: 900,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToSroll: 1,
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 1080,
                 settings: {
                     slidesToShow: 3,
                     slidesToSroll: 1,

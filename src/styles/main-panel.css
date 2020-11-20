@@ -46,10 +46,12 @@
     top: 525px;
     left: -5px;
 }
+
 .main-panel .main-card-container .feather:nth-last-of-type(3){
     top: 300px;
     right: -30px;
 }
+
 .main-panel .main-card-container .feather:nth-last-of-type(4){
     top: 380px;
     left: -40px;
@@ -62,5 +64,5 @@
     font-size: 20px;
     width: 270px;
     margin: 0 auto;
-
+    line-height: 120%;
 }
