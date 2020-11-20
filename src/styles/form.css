@@ -1,13 +1,22 @@
 .form {
     background: transparent linear-gradient(143deg, #7DEDE2 0%, #58B790 100%) 0% 0% no-repeat padding-box;
-    height: 700px;
+    min-height: 700px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form .container {
     background: #FFFFFF;
     width: 50%;
     margin: 0 auto;
+    padding: 0 100px;
+    height: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #0000004D;
+    position: absolute;
+    top: -100px;
     
 }
 
@@ -17,14 +26,42 @@
     font-size: 35px;
     text-align: center;
     color: #63C7A9;
+    padding: 80px 0 40px 0;
 }
 
 .form .container p {
     font-family: 'Open Sans', serif;
     font-size: 20px;
     text-align: left;
-    max-width: 750px;
+    max-width: 950px;
     margin: 40px auto 40px;
+}
+
+.form .container .inputs1 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    
+}
+
+.form .container form {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.form .container form input {
+    flex-grow: 1;
+}
+
+.form .container .inputs2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form .container form textarea {
+    resize: vertical;
 }
 
 .form .container form input, .form .container form textarea{
@@ -32,14 +69,26 @@
     color: #363636;
     font-family: 'Open Sans', serif;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 0 10px 10px;
+    margin: 10px;
 }
 
 .form .container form input::placeholder, .form .container form textarea::placeholder {
-    
     font-family: 'Open Sans', serif;
     color: #363636;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 10px 0 10px 0;
     opacity: 1;
+}
+
+.form .container form button{
+    background: #63C7A9;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 20px 10px 10px 10px;
+    padding: 10px 0;
+    width: 220px;
 }

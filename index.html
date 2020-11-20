@@ -110,11 +110,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat.</p>
-            <form action="post">
-                <input type="text" name="name" id="name" placeholder="Nome">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <textarea name="mensage" id="mensage" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                <button type="submit">ENVIAR</button>
+            <form id='submit-form' action="post">
+                <div class="inputs1">
+                    <input type="text" required name="name" id="name" placeholder="Nome">
+                    <input type="email" required name="email" id="email" placeholder="Email">
+                </div>
+                <div class="inputs2">
+                    <textarea name="message" required id="message" cols="30" rows="10"
+                        placeholder="Mensagem"></textarea>
+                    <button id='submit-button' type="submit">ENVIAR</button>
+                </div>
             </form>
         </div>
 
@@ -122,6 +127,16 @@
 
 
     <footer></footer>
+
+    <section class="validation-modal">
+        <div class="modal">
+            <button id="close">X</button>
+            <p id="status-message">Mensagem enviada com sucesso!</p>
+        </div>
+    </section>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.js"
         integrity="sha512-NI5tuaiyhrV4EkyHBGHJj9uaL6uu7fz/WCoMnEwvHi8WXTKZ9f8P1v517sdTGVpT31/UEHRdLMuNdPon9F3HUg=="
         crossorigin="anonymous"></script>
